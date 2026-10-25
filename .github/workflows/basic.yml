@@ -7,7 +7,7 @@ on:
 jobs:
    basic:
     runs-on: ubuntu-26.04
-
-steps:
- - name: Basic GHA pipeline
-   run: echo "Basic GitHub Action Pipeline"
+   
+    steps:
+     - name: Basic GHA pipeline
+       run: echo "Basic GitHub Action Pipeline"
