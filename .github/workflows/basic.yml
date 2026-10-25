@@ -1,0 +1,13 @@
+name: Basic GHA pipeline
+
+on:
+  Push:
+    branches: ["main"]
+
+Jobs:
+  basic:
+    runs-on: ubuntu-26.04
+
+steps:
+ - name: Basic GHA pipeline
+   run: echo "Basic GitHub Action Pipeline"
