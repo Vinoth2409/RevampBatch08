@@ -4,8 +4,8 @@ on:
   Push:
     branches: ["main"]
 
-Jobs:
-  basic:
+jobs:
+   basic:
     runs-on: ubuntu-26.04
 
 steps:
